@@ -1,4 +1,7 @@
 import Image from 'next/image'
+
+import Hero from './components/Hero'
+
 import styles from './page.module.css'
 
 export default function Home() {
@@ -8,6 +11,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js 13!</a>
         </h1>
+
+        <Hero />
 
         <p className={styles.description}>
           Get started by editing{' '}
