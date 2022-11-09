@@ -1,4 +1,4 @@
-# Reproduction steps
+# Steps
 
 0. Start the development server
 1. Load the page
