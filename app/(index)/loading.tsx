@@ -1,7 +1,5 @@
-import styles from "./loading.module.css";
-
 const Loading: React.FC = () => {
-  return <div className={styles.spinner}>x</div>;
+  return <div>Loading...</div>;
 };
 
 export default Loading;
